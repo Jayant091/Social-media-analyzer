@@ -5,6 +5,8 @@ The Social Media Content Analyzer is a full-stack web application that extracts 
 
 The application enables users to upload content, automatically extract text using OCR or PDF parsing, and receive structured suggestions to improve engagement quality.
 
+
+
 🛠️ Tech Stack
 Frontend
 
@@ -29,6 +31,8 @@ Text Processing
 Tesseract.js (OCR for Images)
 
 pdf-parse (PDF Text Extraction)
+
+
 
 Deployment
 
@@ -56,10 +60,12 @@ Render (Backend)
 
 ⚠️ File validation and error handling
 
+
 🌐 Live Demo
 
 Frontend:
 👉 https://social-media-analyzer-one.vercel.app/
+
 
 🔄 How It Works
 
@@ -82,6 +88,7 @@ Hashtag usage
 Call-to-action presence
 
 Engagement suggestions are generated dynamically.
+
 
 🧠 Engagement Analysis Logic
 
