@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Next.js build
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Upload folder (backend)
+server/uploads/
+
+# Editor folders
+.vscode/
+.idea/
+
+server/eng.traineddata
