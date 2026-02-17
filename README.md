@@ -44,4 +44,3 @@ Frontend analyzes engagement metrics.
 
 Suggestions are generated dynamically.
 
-Suggestions are generated dynamically.
