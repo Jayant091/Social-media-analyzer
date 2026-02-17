@@ -19,8 +19,7 @@ Engagement improvement suggestions
 Loading states and error handling
 
 Live Demo
-Frontend: https://your-vercel-url.vercel.app
-Backend: https://your-render-url.onrender.com
+Frontend: https://social-media-analyzer-one.vercel.app/
 
 How It Works
 
