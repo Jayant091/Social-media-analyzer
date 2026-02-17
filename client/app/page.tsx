@@ -125,12 +125,16 @@ export default function SocialMediaContentAnalyzer() {
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await axios.post('http://localhost:5000/api/upload', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      });
+      const API_URL =
+  process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
+const response = await axios.post(
+  `${API_URL}/api/upload`,
+  formData,
+  {
+    headers: { "Content-Type": "multipart/form-data" }
+  }
+);
       if (response.data.success) {
         setExtractedText(response.data.text);
         const analysisResult = analyzeEngagement(response.data.text);
