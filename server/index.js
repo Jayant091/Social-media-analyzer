@@ -64,8 +64,7 @@ const deleteFile = (filePath) => {
 const extractTextFromPDF = async (filePath) => {
   try {
     const dataBuffer = fs.readFileSync(filePath);
-    const pdfParser = new pdfParse();
-    const data = await pdfParser(dataBuffer);
+    const data = await pdfParse(dataBuffer);
     return data.text;
   } catch (error) {
     throw new Error('Failed to extract text from PDF: ' + error.message);
